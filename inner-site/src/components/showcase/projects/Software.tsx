@@ -124,7 +124,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <h2>Plateforme Mobile de Micro-Influenceurs (PFA)</h2>
                 <br />
                 <p>
-                    <b>Technologies :</b> React Native, Node.js, Express, MongoDB, Redux.
+                    <b>Technologies :</b> React Native, Node.js, Express, MongoDB.
                 </p>
                 <br />
                 <p>

@@ -42,12 +42,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Création d'une interface utilisateur dynamique et intuitive en <b>React</b> : moteur de recherche multicritère des annonces, gestion des profils et espace d'administration des biens.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Mise en place de l'authentification sécurisée (JWT / sessions) et des permissions utilisateurs.
+                            Création d'une interface utilisateur dynamique et intuitive en <b>React</b> : recherche multicritère des annonces, authentification et espace de gestion des biens.
                         </p>
                     </li>
                     <li>
@@ -86,17 +81,17 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Front-end développé en <b>React</b> avec formulaires de déclaration d'incidents, suivi de l'avancement et notifications de statut.
+                            Front-end développé en <b>React</b> : enregistrement des demandes clients (pannes, maintenances) et suivi des statuts.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Module d'affectation intelligente des techniciens selon la disponibilité et la localisation des interventions.
+                            Affectation des demandes aux techniciens.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Tableau de bord de suivi de l'activité globale et historique complet des interventions par appareil.
+                            Historique des interventions par ascenseur et tableau de bord de suivi de l'activité.
                         </p>
                     </li>
                 </ul>
@@ -128,7 +123,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </p>
             </div>
 
-            {/* Master 1 EMSISA */}
+            {/* Master 1 ESISA */}
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
@@ -144,7 +139,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
 
-            {/* Licence EMSISA */}
+            {/* Licence ESISA */}
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>

@@ -53,7 +53,7 @@ const About: React.FC<AboutProps> = (props) => {
 
                 <p>
                     My academic journey started with a strong foundation in software engineering,
-                    graduating with honors (Mention Bien) in Software Engineering from EMSISA (Fès, Morocco),
+                    graduating with honors (Mention Bien) in Software Engineering from ESISA (Fès, Morocco),
                     followed by a Master 1 in Information Systems Engineering and Artificial Intelligence.
                     Currently, I am in Dijon completing my Master 2 in Health-AI at Université Bourgogne Europe,
                     combining cutting-edge deep learning with modern full-stack web and mobile architectures.

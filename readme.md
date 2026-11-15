@@ -1,29 +1,28 @@
-# henryheffernan.com
+# Portfolio 3D & Rétro OS - Amine BELKOUBAA
 
-This is one of two repositories created for my portfolio website <a href="https://henryheffernan.com/"><samp>henryheffernan.com</samp></a>. If you are looking for the 2D OS repository you can find it <a href="https://github.com/henryjeff/portfolio-inner-site"><samp>here</samp></a>! Thanks for taking the time to check this out. If you have any questions of comments, feel free to shoot me an email at <samp><a href="mailto:henryheffernan@gmail.com">henryheffernan@gmail.com</a></samp> or you can DM me on twitter <a href="https://twitter.com/henryheffernan"><samp>@henryheffernan</samp></a>.
+Portfolio interactif développé avec **Three.js**, **React** et **TypeScript**. Il combine une scène 3D d'une chambre rétro avec un ordinateur fonctionnel hébergeant un système d'exploitation vintage simulé (**BelkoubaaOS**), présentant le profil, le CV, les projets d'IA & de développement Full-Stack, et les compétences d'Amine Belkoubaa.
 
-<br>
-
-To setup a dev environment:
+## 🚀 Démarrage rapide
 
 ```bash
-# Clone the repository
-
-# Install dependencies 
-npm i
-
-# Run the local dev server
+# Lancer le serveur de développement 3D
 npm run dev
 ```
 
-To serve a production build:
+## 📦 Construction pour la production
 
 ```bash
-# Install dependencies if not already done - 'npi i'
+# Compiler le système d'exploitation rétro (inner-site)
+cd inner-site && npm run build && cd ..
 
-# Build for production
+# Compiler le site 3D
 npm run build
 
-# Serve the build using express
+# Lancer le serveur de production
 npm start
 ```
+
+## 👤 Contact
+- **Email :** medaminebelkoubaa@gmail.com
+- **Localisation :** Dijon, France
+- **Téléphone :** +33 6 12 78 62 47

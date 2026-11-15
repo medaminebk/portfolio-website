@@ -183,14 +183,9 @@ export default class MonitorScreen extends EventEmitter {
         };
 
         // Set iframe attributes
-        // PROD
-        iframe.src = 'https://os.henryheffernan.com/';
+        iframe.src = '/os/';
         /**
-         * Use dev server is query params are present
-         *
-         * Warning: This will not work unless the dev server is running on localhost:3000
-         * Also running the dev server causes browsers to freak out over unsecure connections
-         * in the iframe, so it will flag a ton of issues.
+         * Use dev server if query params are present
          */
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has('dev')) {
@@ -204,7 +199,7 @@ export default class MonitorScreen extends EventEmitter {
         iframe.className = 'jitter';
         iframe.id = 'computer-screen';
         iframe.frameBorder = '0';
-        iframe.title = 'HeffernanOS';
+        iframe.title = 'BelkoubaaOS';
 
         // Add iframe to container
         container.appendChild(iframe);
